@@ -37,7 +37,7 @@ endpoints:
       apiKey: "${XAI_API_KEY}"
       baseURL: "https://api.x.ai/v1"
       models:
-        default: ["grok-2-vision-1212, grok-2-1212"]
+        default: ["grok-2-vision-1212", "grok-2-1212"]
         fetch: false
       titleConvo: true
       titleMethod: "completion"
